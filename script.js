@@ -74,7 +74,7 @@ descriptografar.addEventListener('click', () => {
 		function descriptografar(newtext) {
 			for (let i = 0; i < remplazar.length; i++) {
 				if (newtext.includes(remplazar[i][1])) {
-					newtext = newtext.replaceAll(remplazar[i][1], remplazar[i][s0]);
+					newtext = newtext.replaceAll(remplazar[i][1], remplazar[i][0]);
 				};
 			};
 			return newtext;
